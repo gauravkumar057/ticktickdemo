@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.gauravdemo.Listeners.CustomTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test Case 1(failed)">
+    <classes>
+      <class name="org.gauravdemo.game_TickTick_tc1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CreateNewUser"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- org.gauravdemo.game_TickTick_tc1 -->
+    </classes>
+  </test> <!-- Test Case 1(failed) -->
+  <test thread-count="5" name="Test Case 2(failed)">
+    <classes>
+      <class name="org.gauravdemo.game_TickTick_tc2">
+        <methods>
+          <include name="UploadImages"/>
+          <include name="LogInTickTickApps"/>
+          <include name="CreateSubTask"/>
+          <include name="CreateTask"/>
+          <include name="tearDown"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- org.gauravdemo.game_TickTick_tc2 -->
+    </classes>
+  </test> <!-- Test Case 2(failed) -->
+  <test thread-count="5" name="Test Case 3(failed)">
+    <classes>
+      <class name="org.gauravdemo.game_TickTick_tc3">
+        <methods>
+          <include name="UploadImages"/>
+          <include name="tearDown"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- org.gauravdemo.game_TickTick_tc3 -->
+    </classes>
+  </test> <!-- Test Case 3(failed) -->
+  <test thread-count="5" name="Test Case 4(failed)">
+    <classes>
+      <class name="org.gauravdemo.game_TickTick_tc4">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LogInTickTickApps"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- org.gauravdemo.game_TickTick_tc4 -->
+    </classes>
+  </test> <!-- Test Case 4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

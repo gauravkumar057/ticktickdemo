@@ -1,0 +1,13 @@
+package org.gauravdemo.enums;
+
+public enum ConfigProperties {
+	
+	URL,
+	OVERRIDEREPORTS,
+	PASSEDSTEPSSCREESHOTS,
+	FAILEDSTEPSSCREESHOTS,
+	SKIPPEDSTEPSSCREESHOTS,
+	BROWSER
+
+
+}
